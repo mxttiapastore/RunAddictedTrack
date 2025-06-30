@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">RunAddictedTrack</string>
+
+    <string name = "titolo_login" translatable="false">Login</string>
+    <string name = "hint_email" translatable="false">Email</string>
+    <string name = "hint_password" translatable="false">Password</string>
+    <string name = "bottone_login">Accedi</string>
+    <string name = "no_account">Non hai un account? Registrati subito!</string>
+    <string name = "credenziali_errate">Credenziali errate. Controlla email o password.</string>
+
+    <string name = "titolo_registrazione">Registrazione</string>
+    <string name = "hint_nome">Nome</string>
+    <string name = "hint_conferma_password">Conferma password</string>
+    <string name = "bottone_registrazione">Registrati</string>
+    <string name = "registrazione_effettuata">Registrazione effettuata con successo!</string>
+    <string name = "account_esistente">Hai già un account? Accedi.</string>
+    <string name = "email_esistente">Email già esistente.</string>
+    <string name = "password_non_uguali">Le password non corrispondono.</string>
+    <string name = "campi_mancanti">Compila tutti i campi.</string>
+
+    <string name = "home_title">Benvenuto, %1$s!</string>
+    <string name = "bottone_inizio_tracking">Avvia Tracciamento</string>
+    <string name = "bottone_fine_tracking">Fine Tracciamento</string>
+    <string name = "bottone_logout" translatable="false">Logout</string>
+    <string name = "bottone_impostazioni">Impostazioni</string>
+    <string name = "bottone_cronologia">Cronologia Attività</string>
+
+    <string name = "titolo_tracciamento">Tracciamento Attività</string>
+    <string name = "label_durata">Durata: </string>
+    <string name = "label_distanza">Distanza:</string>
+    <string name = "label_passi">Passi: </string>
+    <string name = "bottone_stop" translatable="false">STOP</string>
+    <string name = "permessi_richiesti">Permessi richiesti per avviare il tracciamento.</string>
+    <string name = "toasting_attività_salvata">Attività salvata!</string>
+
+    <string name = "cronologia_title">Cronologia Attività</string>
+    <string name = "no_attività">Nessuna attività registrata. Andiamo a correre?</string>
+
+    <string name = "dettaglio_title">Dettaglio Attività</string>
+
+    <string name = "ok" translatable="false">OK</string>
+    <string name = "cancellazione">Annulla</string>
+
+    <string name="dark_mode">Modalità scura</string>
+    <string name="notifications">Notifiche</string>
+    <string name="unit_system">Unità di misura</string>
+    <string name="metric_units">Metrica (km)</string>
+    <string name="imperial_units">Imperiale (miles)</string>
+    <string-array name="units_array"><item>km</item><item>miglia</item></string-array>
+</resources>
