@@ -18,8 +18,8 @@
 
         <TextView
             android:id="@+id/tvLoginTitle"
-            android:layout_width="400dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:paddingBottom="@dimen/spacing_large"
             android:text="@string/titolo_login"
@@ -29,8 +29,8 @@
             android:textStyle="bold|italic" />
 
         <TextView
-            android:id="@+id/tvNoAccount"
-            android:layout_width="379dp"
+            android:id="@+id/tvScrittaLogin"
+            android:layout_width="358dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:paddingTop="@dimen/spacing_medium"
@@ -45,6 +45,7 @@
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
+            android:minHeight="48dp"
             android:padding="@dimen/spacing_small" />
 
         <EditText
@@ -68,7 +69,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/crediti"
+            android:id="@+id/tvNoAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
