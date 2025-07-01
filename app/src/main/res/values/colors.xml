@@ -7,7 +7,7 @@
     <color name="colorOnPrimary">#FFFFFF</color>
     <color name="colorAccent">#00E0CA</color>
     <color name="colorOnAccent">#000000</color>
-    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBackground">#F2FFFD</color>
     <color name="colorOnBackground">#212121</color>
     <color name="colorTextPrimary">#212121</color>
     <color name="colorTextSecondary">#757575</color>

@@ -24,7 +24,7 @@
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
 
-            <TextView
+            <TextView android:textStyle="bold"
                 android:id="@+id/tvActivityDate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <TextView android:textStyle="bold"
                 android:id="@+id/tvActivityDuration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,14 +60,14 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
 
-                <TextView
+                <TextView android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="📍"
                     android:textSize="16sp"
                     android:layout_marginEnd="4dp" />
 
-                <TextView
+                <TextView android:textStyle="bold"
                     android:id="@+id/tvActivityDistance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -85,14 +85,14 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
 
-                <TextView
+                <TextView android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="👣"
                     android:textSize="16sp"
                     android:layout_marginEnd="4dp" />
 
-                <TextView
+                <TextView android:textStyle="bold"
                     android:id="@+id/tvActivitySteps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

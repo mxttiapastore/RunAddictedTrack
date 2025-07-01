@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <TextView android:textStyle="bold"
             android:id="@+id/tvLoginTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,16 +39,16 @@
             android:layout_marginTop="@dimen/spacing_small"
             android:background="@drawable/rounded_edittext" />
 
-        <Button
+        <Button android:textStyle="bold"
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"
-            android:text="@string/bottone_login"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="#00E0CA"
+            android:text="@string/bottone_login"
             android:textColor="@color/colorOnBackground" />
 
-        <TextView
+        <TextView android:textStyle="bold"
             android:id="@+id/tvNoAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

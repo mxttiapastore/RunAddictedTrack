@@ -8,7 +8,7 @@
     android:padding="@dimen/spacing_small">
 
     <!-- Titolo "Cronologia Attività" -->
-    <TextView
+    <TextView android:textStyle="bold"
         android:id="@+id/tvHistoryTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Testo da mostrare se non ci sono attività -->
-    <TextView
+    <TextView android:textStyle="bold"
         android:id="@+id/tvNoActivities"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

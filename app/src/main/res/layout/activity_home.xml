@@ -8,7 +8,7 @@
     android:padding="@dimen/spacing_medium">
 
     <!-- Titolo “Benvenuto, Utente!” -->
-    <TextView
+    <TextView android:textStyle="bold"
         android:id="@+id/tvHomeWelcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <!-- Bottone “Avvia Tracciamento” -->
-    <Button
+    <Button android:textStyle="bold"
         android:id="@+id/btnStartTracking"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/tvHomeWelcome" />
 
     <!-- Bottone “Cronologia Attività” -->
-    <Button
+    <Button android:textStyle="bold"
         android:id="@+id/btnViewHistory"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@id/btnStartTracking" />
 
     <!-- Bottone “Impostazioni” -->
-    <Button
+    <Button android:textStyle="bold"
         android:id="@+id/btnSettings"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@id/btnViewHistory" />
 
     <!-- Bottone “Logout” -->
-    <Button
+    <Button android:textStyle="bold"
         android:id="@+id/btnLogout"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
