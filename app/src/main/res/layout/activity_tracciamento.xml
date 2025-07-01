@@ -60,12 +60,13 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="58dp"
                     android:layout_weight="1"
                     android:text="@string/label_distanza"
+                    android:textAlignment="viewStart"
                     android:textColor="@color/colorTextPrimary"
                     android:textSize="@dimen/text_size_body"
-                    android:textStyle="bold" />
+                    android:textStyle="bold|italic" />
 
                 <TextView
                     android:id="@+id/tvDistanceValue"
@@ -85,12 +86,12 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="55dp"
                     android:layout_weight="1"
                     android:text="@string/label_passi"
                     android:textColor="@color/colorTextPrimary"
                     android:textSize="@dimen/text_size_body"
-                    android:textStyle="bold" />
+                    android:textStyle="bold|italic" />
 
                 <TextView
                     android:id="@+id/tvStepsValue"
@@ -106,17 +107,20 @@
     </LinearLayout>
 
     <!-- Pulsante Stop -->
-    <Button android:textStyle="bold"
+    <Button
         android:id="@+id/btnStop"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/button_height"
-        android:backgroundTint="@color/colorError"
+        android:layout_width="373dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#D5052B"
         android:text="@string/bottone_stop"
         android:textColor="@color/colorBackground"
         android:textSize="@dimen/text_size_body"
-        
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

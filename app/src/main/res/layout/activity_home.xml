@@ -2,73 +2,90 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
     android:padding="@dimen/spacing_medium">
 
     <!-- Titolo “Benvenuto, Utente!” -->
-    <TextView android:textStyle="bold"
+
+    <!-- Bottone “Avvia Tracciamento” -->
+
+    <!-- Bottone “Cronologia Attività” -->
+
+    <TextView
         android:id="@+id/tvHomeWelcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/home_title"
-        android:textSize="@dimen/text_size_title"
         android:textColor="@color/colorTextPrimary"
-        android:layout_marginBottom="@dimen/spacing_large"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Bottone “Avvia Tracciamento” -->
-    <Button android:textStyle="bold"
+    <Button
         android:id="@+id/btnStartTracking"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_width="379dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="@color/colorPrimary"
         android:text="@string/bottone_inizio_tracking"
         android:textColor="@color/colorBackground"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvHomeWelcome" />
 
-    <!-- Bottone “Cronologia Attività” -->
-    <Button android:textStyle="bold"
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#D5052B"
+        android:text="@string/bottone_logout"
+        android:textColor="@color/colorBackground"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSettings" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#02A695"
+        android:text="@string/bottone_impostazioni"
+        android:textColor="@color/colorBackground"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnViewHistory" />
+
+    <Button
         android:id="@+id/btnViewHistory"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
-        android:layout_marginTop="@dimen/spacing_medium"
-        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#02A695"
         android:text="@string/bottone_cronologia"
         android:textColor="@color/colorBackground"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnStartTracking" />
 
     <!-- Bottone “Impostazioni” -->
-    <Button android:textStyle="bold"
-        android:id="@+id/btnSettings"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/button_height"
-        android:layout_marginTop="@dimen/spacing_medium"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/bottone_impostazioni"
-        android:textColor="@color/colorBackground"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnViewHistory" />
 
     <!-- Bottone “Logout” -->
-    <Button android:textStyle="bold"
-        android:id="@+id/btnLogout"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/button_height"
-        android:layout_marginTop="@dimen/spacing_medium"
-        android:backgroundTint="@color/colorError"
-        android:text="@string/bottone_logout"
-        android:textColor="@color/colorBackground"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnSettings" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
