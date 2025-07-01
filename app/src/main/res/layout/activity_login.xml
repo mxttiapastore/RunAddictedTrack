@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <TextView android:textStyle="bold"
             android:id="@+id/tvLoginTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
-            android:padding="@dimen/spacing_small" />
+            android:padding="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext" />
 
         <EditText
             android:id="@+id/etPassword"
@@ -35,9 +36,10 @@
             android:hint="@string/hint_password"
             android:inputType="textPassword"
             android:padding="@dimen/spacing_small"
-            android:layout_marginTop="@dimen/spacing_small" />
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext" />
 
-        <Button
+        <Button android:textStyle="bold"
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"
@@ -46,7 +48,7 @@
             android:backgroundTint="@color/colorPrimary"
             android:textColor="@color/colorOnBackground" />
 
-        <TextView
+        <TextView android:textStyle="bold"
             android:id="@+id/tvNoAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
