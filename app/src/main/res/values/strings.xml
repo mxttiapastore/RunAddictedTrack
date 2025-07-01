@@ -47,6 +47,6 @@
     <string name="unit_system">Unità di misura</string>
     <string name="metric_units">Metrica (km)</string>
     <string name="imperial_units">Imperiale (miles)</string>
-    <string name="scritta_benvenuto">Login</string>
+    <string name="scritta_login">Login</string>
     <string-array name="units_array"><item>km</item><item>miglia</item></string-array>
 </resources>

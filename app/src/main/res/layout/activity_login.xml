@@ -26,12 +26,12 @@
             android:textStyle="bold|italic" />
 
         <TextView
-            android:id="@+id/tvNoAccount"
+            android:id="@+id/tvScrittaLogin"
             android:layout_width="359dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:paddingTop="@dimen/spacing_medium"
-            android:text="@string/scritta_benvenuto"
+            android:text="@string/scritta_login"
             android:textColor="@color/colorAccent"
             android:textStyle="bold|italic" />
 
@@ -42,6 +42,7 @@
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
+            android:minHeight="48dp"
             android:padding="@dimen/spacing_small" />
 
         <EditText
@@ -52,6 +53,7 @@
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
+            android:minHeight="48dp"
             android:padding="@dimen/spacing_small" />
 
         <Button
