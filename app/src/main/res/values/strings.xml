@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">RunAddictedTrack</string>
 
-    <string name = "titolo_login" translatable="false">Login</string>
-    <string name = "hint_email" translatable="false">Email</string>
-    <string name = "hint_password" translatable="false">Password</string>
+    <string name = "titolo_login" translatable="false">Benvenuto su Run Addicted Track!</string>
+    <string name = "hint_email" translatable="false">Inserisci Email</string>
+    <string name = "hint_password" translatable="false">Inserisci password</string>
     <string name = "bottone_login">Accedi</string>
     <string name = "no_account">Non hai un account? Registrati subito!</string>
     <string name = "credenziali_errate">Credenziali errate. Controlla email o password.</string>
@@ -47,5 +47,6 @@
     <string name="unit_system">Unità di misura</string>
     <string name="metric_units">Metrica (km)</string>
     <string name="imperial_units">Imperiale (miles)</string>
+    <string name="scritta_benvenuto">Login</string>
     <string-array name="units_array"><item>km</item><item>miglia</item></string-array>
 </resources>
