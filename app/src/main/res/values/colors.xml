@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <!-- Main brand color -->
+    <color name="colorPrimary">#00E0CA</color>
+    <!-- Darker variant for status bar -->
+    <color name="colorPrimaryDark">#00B3A5</color>
     <color name="colorOnPrimary">#FFFFFF</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#00E0CA</color>
     <color name="colorOnAccent">#000000</color>
     <color name="colorBackground">#FFFFFF</color>
     <color name="colorOnBackground">#212121</color>
