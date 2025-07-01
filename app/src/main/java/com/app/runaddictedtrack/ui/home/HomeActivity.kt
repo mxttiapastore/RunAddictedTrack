@@ -46,10 +46,8 @@ class HomeActivity : AppCompatActivity() {
         val btnSettings = findViewById<Button>(R.id.btnSettings)
         val btnLogout = findViewById<Button>(R.id.btnLogout)
 
-        // Se il nome non è stato trovato, mostra un saluto generico
-        if (tvWelcome.text.isNullOrEmpty()) {
-            tvWelcome.text = getString(R.string.home_title, "Utente")
-        }
+        // Mostra “Benvenuto, NomeUtente!” → in futuro: prendi il nome da dbHelper
+        tvWelcome.text = getString(R.string.home_title, "Utente")
 
         btnStart.setOnClickListener {
             val intent = Intent(this, TrackingActivity::class.java)
