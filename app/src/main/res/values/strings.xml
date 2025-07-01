@@ -19,7 +19,7 @@
     <string name = "campi_mancanti">Compila tutti i campi.</string>
     <string name = "formato_email_sbagliato">Email non in formato corretto</string>
 
-    <string name = "home_title">Benvenuto, %1$s!</string>
+    <string name = "home_title">Benvenuto, Utente!</string>
     <string name = "bottone_inizio_tracking">Avvia Tracciamento</string>
     <string name = "bottone_fine_tracking">Fine Tracciamento</string>
     <string name = "bottone_logout" translatable="false">Logout</string>
@@ -48,6 +48,6 @@
     <string name="metric_units">Metrica (km)</string>
     <string name="imperial_units">Imperiale (miles)</string>
     <string name="scritta_benvenuto">Login</string>
-    <string name="login_footer">\u00A9 2024 Run Addicted</string>
+    <string name="login_crediti">\u00A9 2025 Gabriele Segreto, Mattia Pastore</string>
     <string-array name="units_array"><item>km</item><item>miglia</item></string-array>
 </resources>
