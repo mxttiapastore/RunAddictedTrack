@@ -10,15 +10,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView android:textStyle="bold"
+        <TextView
             android:id="@+id/tvLoginTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/titolo_login"
-            android:textSize="@dimen/text_size_title"
-            android:textColor="@color/colorTextPrimary"
             android:layout_gravity="center_horizontal"
-            android:paddingBottom="@dimen/spacing_large" />
+            android:paddingBottom="@dimen/spacing_large"
+            android:text="@string/titolo_login"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold|italic" />
 
         <EditText
             android:id="@+id/etEmail"

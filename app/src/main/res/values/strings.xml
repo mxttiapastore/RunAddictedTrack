@@ -17,6 +17,7 @@
     <string name = "email_esistente">Email già esistente.</string>
     <string name = "password_non_uguali">Le password non corrispondono.</string>
     <string name = "campi_mancanti">Compila tutti i campi.</string>
+    <string name = "formato_email_sbagliato">Email non in formato corretto</string>
 
     <string name = "home_title">Benvenuto, %1$s!</string>
     <string name = "bottone_inizio_tracking">Avvia Tracciamento</string>

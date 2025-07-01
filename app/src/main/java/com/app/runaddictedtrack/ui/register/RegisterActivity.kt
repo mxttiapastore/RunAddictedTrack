@@ -39,6 +39,9 @@ class RegisterActivity : AppCompatActivity() {
                 email.isEmpty() || password.isEmpty() || name.isEmpty() -> {
                     Toast.makeText(this, "Riempi tutti i campi", Toast.LENGTH_SHORT).show()
                 }
+                !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches() -> {
+                    Toast.makeText(this, "Email non in formato corretto.", Toast.LENGTH_SHORT).show()
+                }
                 else -> {
                     val userId = dbHelper.addUser(email, password, name)
                     if (userId != -1L) {
