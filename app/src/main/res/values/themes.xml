@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Tema principale, basato su Material Components (che a sua volta estende AppCompat) -->
-    <style name="Theme.RunAddictedTrack" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.RunAddictedTrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
         <item name="colorOnPrimary">@color/colorOnPrimary</item>
