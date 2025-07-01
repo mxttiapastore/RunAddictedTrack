@@ -4,21 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/spacing_medium"
-    android:background="@color/colorBackground"
-    android:fillViewport="true">
+    android:background="@color/colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorBackground"
-        android:gravity="center_vertical"
         android:orientation="vertical"
         android:visibility="visible"
         tools:visibility="visible">
 
         <TextView
             android:id="@+id/tvLoginTitle"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:paddingBottom="@dimen/spacing_large"
@@ -29,8 +26,8 @@
             android:textStyle="bold|italic" />
 
         <TextView
-            android:id="@+id/tvScrittaLogin"
-            android:layout_width="358dp"
+            android:id="@+id/tvNoAccount"
+            android:layout_width="359dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:paddingTop="@dimen/spacing_medium"
@@ -45,7 +42,6 @@
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
-            android:minHeight="48dp"
             android:padding="@dimen/spacing_small" />
 
         <EditText
@@ -69,7 +65,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvNoAccount"
+            android:id="@+id/crediti"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -77,14 +73,5 @@
             android:text="@string/no_account"
             android:textColor="@color/colorAccent"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tvCrediti"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:paddingTop="@dimen/spacing_medium"
-            android:text="@string/login_crediti"
-            android:textColor="@color/colorAccent" />
     </LinearLayout>
 </ScrollView>
