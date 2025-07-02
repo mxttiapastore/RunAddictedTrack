@@ -1,4 +1,5 @@
 package com.app.runaddictedtrack.ui.login
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var dbHelper: DatabaseHelper
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
