@@ -114,9 +114,10 @@
         android:layout_marginBottom="52dp"
         android:backgroundTint="#D5052B"
         android:text="@string/bottone_stop"
+        android:textAlignment="center"
         android:textColor="@color/colorBackground"
-        android:textSize="@dimen/text_size_body"
 
+        android:textSize="@dimen/text_size_body"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

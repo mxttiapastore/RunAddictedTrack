@@ -27,11 +27,12 @@
 
         <TextView
             android:id="@+id/tvScrittaLogin"
-            android:layout_width="359dp"
-            android:layout_height="wrap_content"
+            android:layout_width="349dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:paddingTop="@dimen/spacing_medium"
             android:text="@string/scritta_login"
+            android:textAlignment="textStart"
             android:textColor="@color/colorAccent"
             android:textStyle="bold|italic" />
 
