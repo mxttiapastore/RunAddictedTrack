@@ -55,4 +55,20 @@
 
     <!-- Crediti finali nella schermata di login -->
     <string name="crediti_login">@2025 Gabriele Segreto, Mattia Pastore</string>
+
+    <!-- Nuovi testi per la sezione Informazioni Personali -->
+    <string name="bottone_informazioni">Informazioni</string>
+    <string name="titolo_informazioni">Informazioni Personali</string>
+    <string name="label_sesso">Sesso</string>
+    <string name="hint_eta">Età</string>
+    <string name="hint_farmaci">Farmaci assunti</string>
+    <string name="hint_problemi">Problemi di salute</string>
+    <string name="hint_note">Note</string>
+    <string name="bottone_salva">Salva</string>
+    <string name="info_salvate">Informazioni salvate</string>
+    <string-array name="sex_options">
+        <item>Maschio</item>
+        <item>Femmina</item>
+        <item>Non binario</item>
+    </string-array>
 </resources>

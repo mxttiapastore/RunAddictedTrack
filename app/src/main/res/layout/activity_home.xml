@@ -60,6 +60,21 @@
         app:layout_constraintTop_toBottomOf="@id/btnSettings" />
 
     <Button
+        android:id="@+id/btnInformazioni"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#02A695"
+        android:text="@string/bottone_informazioni"
+        android:textAlignment="center"
+        android:textColor="@color/colorBackground"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnViewHistory" />
+
+    <Button
         android:id="@+id/btnSettings"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
@@ -72,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnViewHistory" />
+        app:layout_constraintTop_toBottomOf="@id/btnInformazioni" />
 
     <Button
         android:id="@+id/btnViewHistory"
