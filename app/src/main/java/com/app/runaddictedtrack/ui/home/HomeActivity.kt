@@ -11,6 +11,7 @@ import com.app.runaddictedtrack.data.local.DatabaseHelper
 import com.app.runaddictedtrack.ui.login.LoginActivity
 import com.app.runaddictedtrack.ui.history.HistoryActivity
 import com.app.runaddictedtrack.ui.settings.SettingsActivity
+import com.app.runaddictedtrack.ui.info.InformazioniActivity
 import com.app.runaddictedtrack.ui.tracking.TrackingActivity
 
 class HomeActivity : AppCompatActivity() {
@@ -43,6 +44,7 @@ class HomeActivity : AppCompatActivity() {
         val tvWelcome = findViewById<TextView>(R.id.tvHomeWelcome)
         val btnStart = findViewById<Button>(R.id.btnStartTracking)
         val btnHistory = findViewById<Button>(R.id.btnViewHistory)
+        val btnInformazioni = findViewById<Button>(R.id.btnInformazioni)
         val btnSettings = findViewById<Button>(R.id.btnSettings)
         val btnLogout = findViewById<Button>(R.id.btnLogout)
 
@@ -59,6 +61,11 @@ class HomeActivity : AppCompatActivity() {
         btnHistory.setOnClickListener {
             val intent = Intent(this, HistoryActivity::class.java)
             intent.putExtra("USER_ID", userId)
+            startActivity(intent)
+        }
+
+        btnInformazioni.setOnClickListener {
+            val intent = Intent(this, InformazioniActivity::class.java)
             startActivity(intent)
         }
 

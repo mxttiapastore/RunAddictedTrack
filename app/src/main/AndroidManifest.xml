@@ -35,6 +35,7 @@
         <activity android:name=".ui.history.HistoryActivity" />
         <activity android:name=".ui.details.DetailActivity" />
         <activity android:name=".ui.settings.SettingsActivity" />
+        <activity android:name=".ui.info.InformazioniActivity" />
     </application>
 
 </manifest>
