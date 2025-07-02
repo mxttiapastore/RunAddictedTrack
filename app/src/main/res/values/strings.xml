@@ -49,4 +49,10 @@
     <string name="imperial_units">Imperiale (miles)</string>
     <string name="scritta_login">Login</string>
     <string-array name="units_array"><item>km</item><item>miglia</item></string-array>
+
+    <!-- Nuova stringa per descrizione immagine in TrackingActivity -->
+    <string name="descrizione_immagine_tracciamento">Immagine attività</string>
+
+    <!-- Crediti finali nella schermata di login -->
+    <string name="crediti_login">@2025 Gabriele Segreto, Mattia Pastore</string>
 </resources>
