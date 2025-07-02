@@ -109,14 +109,14 @@
     <!-- Immagine dell'attività -->
     <ImageView
         android:id="@+id/ivTrackingImage"
-        android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_width="272dp"
+        android:layout_height="132dp"
         android:contentDescription="@string/descrizione_immagine_tracciamento"
         android:scaleType="fitCenter"
-        app:layout_constraintTop_toBottomOf="@id/valuesContainer"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:src="@drawable/ic_logonuovo_playstore" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valuesContainer"
+        tools:src="@drawable/uomocorrendo" />
 
     <!-- Pulsante Stop -->
     <Button
