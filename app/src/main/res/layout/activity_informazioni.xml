@@ -21,20 +21,18 @@
             android:textSize="@dimen/text_size_title"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/label_sesso" />
-
-        <Spinner
+        <EditText
             android:id="@+id/spinnerSex"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Sesso" />
 
         <EditText
             android:id="@+id/etAge"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="@dimen/spacing_small"
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_eta"
@@ -43,7 +41,7 @@
         <EditText
             android:id="@+id/etMedications"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="90dp"
             android:layout_marginTop="@dimen/spacing_small"
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_farmaci" />
@@ -51,7 +49,7 @@
         <EditText
             android:id="@+id/etHealthIssues"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="91dp"
             android:layout_marginTop="@dimen/spacing_small"
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_problemi" />
@@ -59,7 +57,7 @@
         <EditText
             android:id="@+id/etNotes"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="109dp"
             android:layout_marginTop="@dimen/spacing_small"
             android:background="@drawable/rounded_edittext"
             android:hint="@string/hint_note"
@@ -73,6 +71,7 @@
             android:layout_marginTop="@dimen/spacing_medium"
             android:backgroundTint="@color/colorPrimary"
             android:text="@string/bottone_salva"
+            android:textAlignment="center"
             android:textColor="@color/colorOnBackground"
             android:textStyle="bold" />
     </LinearLayout>
