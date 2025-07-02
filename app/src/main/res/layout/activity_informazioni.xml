@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_medium"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvInfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/spacing_large"
+            android:text="@string/titolo_informazioni"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/spinnerSex"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Sesso" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/hint_eta"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMedications"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/hint_farmaci" />
+
+        <EditText
+            android:id="@+id/etHealthIssues"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/hint_problemi" />
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/hint_note"
+            android:inputType="textMultiLine"
+            android:minLines="3" />
+
+        <Button
+            android:id="@+id/btnSaveInfo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/bottone_salva"
+            android:textAlignment="center"
+            android:textColor="@color/colorOnBackground"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">RunAddictedTrack</string>
 
+    <!-- SEZIONE LOGIN -->
     <string name = "titolo_login" translatable="false">Benvenuto su Run Addicted Track!</string>
     <string name = "hint_email" translatable="false">Inserisci Email</string>
     <string name = "hint_password" translatable="false">Inserisci password</string>
@@ -8,6 +9,7 @@
     <string name = "no_account">Non hai un account? Registrati subito!</string>
     <string name = "credenziali_errate">Credenziali errate. Controlla email o password.</string>
 
+    <!-- SEZIONE REGISTRAZIONE-->
     <string name = "titolo_registrazione">Registrazione</string>
     <string name = "hint_nome">Nome</string>
     <string name = "hint_conferma_password">Conferma password</string>
@@ -19,6 +21,7 @@
     <string name = "campi_mancanti">Compila tutti i campi.</string>
     <string name = "formato_email_sbagliato">Email non in formato corretto</string>
 
+    <!-- SEZIONE HOME -->
     <string name = "home_title">Benvenuto, %1$s!</string>
     <string name = "bottone_inizio_tracking">Avvia Tracciamento</string>
     <string name = "bottone_fine_tracking">Fine Tracciamento</string>
@@ -26,6 +29,7 @@
     <string name = "bottone_impostazioni">Impostazioni</string>
     <string name = "bottone_cronologia">Cronologia Attività</string>
 
+    <!-- SEZIONE TRACCIAMENTO -->
     <string name = "titolo_tracciamento">Tracciamento Attività</string>
     <string name = "label_durata">Durata: </string>
     <string name = "label_distanza">Distanza:</string>
@@ -33,6 +37,17 @@
     <string name = "bottone_stop" translatable="false">STOP</string>
     <string name = "permessi_richiesti">Permessi richiesti per avviare il tracciamento.</string>
     <string name = "toasting_attività_salvata">Attività salvata!</string>
+
+    <!-- SEZIONE INFORMAZIONI PERSONALI -->
+    <string name="bottone_informazioni">INFORMAZIONI PERSONALI</string>
+    <string name="label_sesso">Sesso</string>
+    <string name="hint_eta">Età</string>
+    <string name="hint_farmaci">Farmaci</string>
+    <string name="hint_problemi">Patologie / Problemi</string>
+    <string name="hint_note">Note</string>
+    <string name="bottone_salva">SALVA</string>
+    <string name="titolo_informazioni">Informazioni personali</string>
+
 
     <string name = "cronologia_title">Cronologia Attività</string>
     <string name = "no_attività">Nessuna attività registrata. Andiamo a correre?</string>
@@ -50,9 +65,12 @@
     <string name="scritta_login">Login</string>
     <string-array name="units_array"><item>km</item><item>miglia</item></string-array>
 
-    <!-- Nuova stringa per descrizione immagine in TrackingActivity -->
+
+    <!-- CREAZIONE NUOVA ATTIVITA' -->
     <string name="descrizione_immagine_tracciamento">Immagine attività</string>
 
-    <!-- Crediti finali nella schermata di login -->
-    <string name="crediti_login">@2025 Gabriele Segreto, Mattia Pastore</string>
+    <!-- SEZIONE CREDITI LOGIN -->
+    <string name="crediti_login">@ 2025 Gabriele Segreto, Mattia Pastore</string>
+    <string name="info_salvate">Informazioni salvate con successo</string>
+
 </resources>
