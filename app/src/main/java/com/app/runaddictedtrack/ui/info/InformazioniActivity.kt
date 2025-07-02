@@ -2,14 +2,16 @@ package com.app.runaddictedtrack.ui.info
 
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.widget.*
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.app.runaddictedtrack.R
 
 class InformazioniActivity : AppCompatActivity() {
 
     private lateinit var sharedPreferences: SharedPreferences
-    private lateinit var spinnerSex: Spinner
+    private lateinit var etSex: EditText
     private lateinit var etAge: EditText
     private lateinit var etMedications: EditText
     private lateinit var etHealthIssues: EditText
@@ -22,21 +24,12 @@ class InformazioniActivity : AppCompatActivity() {
 
         sharedPreferences = getSharedPreferences("PERSONAL_INFO", MODE_PRIVATE)
 
-        spinnerSex = findViewById(R.id.spinnerSex)
+        etSex = findViewById(R.id.etSex)
         etAge = findViewById(R.id.etAge)
         etMedications = findViewById(R.id.etMedications)
         etHealthIssues = findViewById(R.id.etHealthIssues)
         etNotes = findViewById(R.id.etNotes)
         btnSave = findViewById(R.id.btnSaveInfo)
-
-        ArrayAdapter.createFromResource(
-            this,
-            R.array.sex_options,
-            android.R.layout.simple_spinner_item
-        ).also { adapter ->
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            spinnerSex.adapter = adapter
-        }
 
         loadSavedInfo()
 
@@ -47,7 +40,7 @@ class InformazioniActivity : AppCompatActivity() {
     }
 
     private fun loadSavedInfo() {
-        spinnerSex.setSelection(sharedPreferences.getInt("SEX_INDEX", 0))
+        etSex.setText(sharedPreferences.getString("SEX", ""))
         etAge.setText(sharedPreferences.getString("AGE", ""))
         etMedications.setText(sharedPreferences.getString("MEDICINE", ""))
         etHealthIssues.setText(sharedPreferences.getString("PROBLEMS", ""))
@@ -56,7 +49,7 @@ class InformazioniActivity : AppCompatActivity() {
 
     private fun saveInfo() {
         sharedPreferences.edit()
-            .putInt("SEX_INDEX", spinnerSex.selectedItemPosition)
+            .putString("SEX", etSex.text.toString())
             .putString("AGE", etAge.text.toString())
             .putString("MEDICINE", etMedications.text.toString())
             .putString("PROBLEMS", etHealthIssues.text.toString())
